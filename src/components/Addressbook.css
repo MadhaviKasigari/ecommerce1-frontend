@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* body {
+    background: linear-gradient(#831588, #323770);
+    height: 100vh;
+    width: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+} */
+
+form {
+    /* align-items: center;
+    justify-content: center;
+    overflow: hidden; */
+    color: black;
+    background:  linear-gradient(#831588, #323770);
+    text-align: center;
+    border: 5px solid white;
+    width: 30vw;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+form Input {
+    display: block;
+    margin: 0 auto 10px auto;
+    border-radius: 20px;
+    border: 3px solid white;
+    padding: 10px;
+    background-color: purple;
+    font-weight: bold;
+    color: bold;
+    width: 90%;
+}
+
+.input-font {
+    background-color: peru;
+    font-weight: bold;
+    color: white;
+}
+
+input:focus {
+    outline: none;
+}
+
+.check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+    margin-left: 10px;
+    width: 10%;
+    cursor: pointer;
+}
+
+input.btn {
+    width: 30%;
+    min-width: max-content;
+    margin-top: 20px;
+    color: white;
+}
+
+::placeholder {
+    color: white;
+    opacity: 0.5;
+    letter-spacing: 0.5px;
+}
+
+::ms-input-placeholder {
+    color: white;
+    opacity: 0.5;
+    letter-spacing: 0.5px;
+}
