@@ -4,7 +4,7 @@ import * as type from "../constants/authConstants";
 export const signIn = (email, password) => async (dispatch) => {
   console.log("signin message:", signIn);
   await axios
-    .post("http://localhost:8000/api/users/login", {
+    .post("https://ecommerce-op80.onrender.com/api/users/login", {
       Email: email,
       Password: password,
     })
@@ -20,7 +20,7 @@ export const signIn = (email, password) => async (dispatch) => {
 
 export const signUp = (name, email, password) => async (dispatch) => {
   axios
-    .post("http://localhost:8000/api/users/signup", {
+    .post("https://ecommerce-op80.onrender.com/api/users/signup", {
       Name: name,
       Email: email,
       Password: password,
