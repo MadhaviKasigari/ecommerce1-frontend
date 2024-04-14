@@ -9,6 +9,11 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
+
+https://ecommerce-op80.onrender.com -backend render deployment link
+
+https://shopplus-plus-frontend.onrender.com/ -render frontend link
+
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
