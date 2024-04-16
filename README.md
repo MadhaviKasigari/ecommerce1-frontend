@@ -10,9 +10,9 @@ In the project directory, you can run:
 
 Runs the app in the development mode.\
 
-https://ecommerce-op80.onrender.com -backend render deployment link
+https://ecommerce-op80.onrender.com - render backend deployment link
 
-https://shopplus-plus-frontend.onrender.com/ -render frontend link
+https://shopplus-plus-frontend.onrender.com/ -render frontend deployment link
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
